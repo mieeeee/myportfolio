@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+}
+.section-about , .section-works ,
+.section-news , .section-contact {
+    color: #383e45;
+    font-size:0.9rem;
+    max-width: 960px;
+    margin:0 auto 130px auto;
+    font-size:0.9rem;
+    padding: 0 4%;
+}
+img {
+    max-width: 100%;  
+}
+li {
+    list-style: none;
+}
+
+/*-----headerはじまり-----*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    height:120px;
+    margin: 0 auto;
+    padding:0 70px;
+}
+
+header ul {
+   display: flex; 
+   padding: 10px 0;
+}
+header li {
+   margin-left: 30px; 
+}
+header li a {
+    text-decoration: none;
+    color:black;
+}
+header li a:hover {
+    opacity:0.7;
+}
+.title {
+    font-size:1.0rem
+}
+
+/*-----headerおわり-----*/
+
+/*-----top-visualはじまり-----*/
+.top-visual {
+   margin:  0 calc(50% - 50vw);
+   margin-bottom:30px;
+   text-align: center;
+    
+}
+.top-visual img {
+    width:100%;
+    max-width:1920px;
+    height:420px;
+    object-fit: cover;
+    margin-left:10px;
+}
+
+/*-----top-visualおわり-----*/
+
+/*-----section-aoutはじまり-----*/
+.section-about {
+  text-align: center;
+}
+.about {
+    text-align: center;
+    font-size:1.5rem;
+    margin-bottom:65px;
+}
+
+.section-about ul {
+  margin-bottom: 30px;
+}
+.name {
+    margin-bottom:40px;
+}
+.about-contents {
+  margin-bottom: 3px;
+}
+.about p {
+  text-align:justify;
+}
+/*-----section-aboutおわり-----*/
+/*-----section-worksはじまり-----*/
+.works {
+    text-align: center;
+    font-size:1.5rem;
+    margin-bottom:65px;
+}
+.section-works ul {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-bottom: 50px;
+}
+.section-works li {
+  width: 31%;
+  margin-bottom: 23px;
+}
+
+/*-----section-worksおわり-----*/
+
+/*-----section-newsはじまり-----*/
+.news {
+    text-align: center;
+    font-size:1.5rem;
+    margin-bottom:65px;
+}
+.section-news ul {
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+}
+.section-news li{
+    width:100%;
+    border-bottom: solid 1px #c8c8c8;
+    text-align: center;
+    padding:10px;
+}
+.text {
+    margin-left:20px;
+}
+/*-----section-newsおわり-----*/
+
+/*-----section-contactはじまり-----*/
+.contact-form {
+  text-align: center;
+  margin-bottom:65px;
+}
+
+
+/*-----section-contactおわり-----*/
+
+/*-----footerはじまり------*/
+footer {
+  background-color: #24292e;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 10px 20px;
+  text-align: center;
+}
+/*-----footerおわり-----*/
+
+/*-------------------
+responsive
+--------------------*/
+
+@media screen and (max-width: 600px) {
+  .main {
+    margin-bottom:70px;
+    }
+  .title {
+    margin-top:20px;
+    }
+    
+
+/*----------------------
+    ヘッダー
+ ----------------------*/
+    
+   header {
+     max-width:100%;
+     height: auto;
+     flex-direction: column;
+    }
+   header li {
+     font-size:0.5rem;
+     margin-left:10px:
+    } 
+    
+  /*-------------------
+    section-about
+    ------------------*/
+    .about {
+        margin-bottom:40px;
+    } 
+    .section-about {
+        margin-bottom:40px;
+    }
+ /*----------------------
+    section-works
+  ---------------------*/
+   
+   .works {
+      margin-bottom:40px;  
+    }
+   .section-works {
+      margin-bottom:40px; 
+    }
+   .section-works ul {
+      flex-direction: column;    
+    } 
+   .section-works li {
+      width:100%;
+      text-align: center;
+    }
+ /*----------------------
+    section-news
+  ---------------------*/
+    .section-news {
+        margin-bottom:40px;
+    }
+    .news {
+        margin-bottom:40px;
+    }
+    .section-news ul {
+      font-size:0.5rem; 
+    }
+    
+/*-----------------------
+    section-contact
+------------------------*/
+    
+    .section-contant dl {
+      flex-direction: column;  
+    }
+    .section-contact dt {
+       width:100%;
+    }
+    .section-contact dd {
+       width:80%;
+    }
+    
+   }
