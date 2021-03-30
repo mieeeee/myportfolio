@@ -104,13 +104,11 @@ header li a:hover {
     justify-content: space-between;
     flex-wrap:wrap;
     margin-bottom: 50px;
-    background-color: #f3f1f1;
 }
 .section-works li {
   width: 28%;
   margin-bottom: 23px;
   margin-top:23px;
-  margin-right:37px;
 }
 
 /*-----section-worksおわり-----*/
