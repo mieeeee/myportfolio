@@ -78,7 +78,7 @@ header li a:hover {
     margin-bottom:65px;
 }
 
-.section-about ul {
+#section-about ul {
   margin-bottom: 30px;
 }
 .name {
@@ -99,13 +99,13 @@ header li a:hover {
     font-size:1.5rem;
     margin-bottom:65px;
 }
-.section-works ul {
+#section-works ul {
     display:flex;
     justify-content: space-between;
     flex-wrap:wrap;
     margin-bottom: 50px;
 }
-.section-works li {
+#section-works li {
   width: 31%;
   margin-bottom: 23px;
   margin-top:23px;
@@ -123,12 +123,12 @@ header li a:hover {
     font-size:1.5rem;
     margin-bottom:65px;
 }
-.section-news ul {
+#section-news ul {
     display: flex;
     flex-wrap:wrap;
     text-align: center;
 }
-.section-news li{
+#section-news li{
     width:100%;
     border-bottom: solid 1px #c8c8c8;
     text-align: center;
@@ -188,7 +188,7 @@ responsive
     .about {
         margin-bottom:40px;
     } 
-    .section-about {
+    #section-about {
         margin-bottom:40px;
     }
  /*----------------------
@@ -198,26 +198,26 @@ responsive
    .works {
       margin-bottom:40px;  
     }
-   .section-works {
+   #section-works {
       margin-bottom:40px; 
     }
-   .section-works ul {
+   #section-works ul {
       flex-direction: column;    
     } 
-   .section-works li {
+   #section-works li {
       width:100%;
       text-align: center;
     }
  /*----------------------
     section-news
   ---------------------*/
-    .section-news {
+    #section-news {
         margin-bottom:40px;
     }
     .news {
         margin-bottom:40px;
     }
-    .section-news ul {
+    #section-news ul {
       font-size:0.5rem; 
     }
     
@@ -225,13 +225,13 @@ responsive
     section-contact
 ------------------------*/
     
-    .section-contant dl {
+    #section-contant dl {
       flex-direction: column;  
     }
-    .section-contact dt {
+    #section-contact dt {
        width:100%;
     }
-    .section-contact dd {
+    #section-contact dd {
        width:80%;
     }
    
