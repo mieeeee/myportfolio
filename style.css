@@ -110,6 +110,10 @@ header li a:hover {
   margin-bottom: 23px;
   margin-top:23px;
 }
+.section-works p {
+    text-align:center;
+    font-size:0.5rem;
+}
 
 /*-----section-worksおわり-----*/
 
