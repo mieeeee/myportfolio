@@ -6,6 +6,8 @@
  <title>portfolio</title>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script type="text/javascript" src="main.js"></script>  
 </head>
 
 
@@ -99,3 +101,16 @@
 <footer>
     <p>&copy; 2021 My Portfolio</p>
 </footer>
+ 
+ <script>
+      $(function(){
+        $('a[href^="#"]').click(function(){
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top;
+          $("html, body").animate({scrollTop:position}, 600, "swing");
+          return false;
+        });
+      });
+    </script>
+    
