@@ -82,6 +82,7 @@ header li a:hover {
   margin-bottom: 30px;
 }
 .name {
+    text-align:center;
     margin-bottom:40px;
     font-size:1.3rem;
 }
